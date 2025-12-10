@@ -70,8 +70,8 @@ on:
         type: boolean
       ssh:
         description: 'SSH connection to Actions'
-        required: true
-        default: 'true'
+        required: false
+        default: 'false'
 #  schedule:
 #    - cron: 0 16 * * *
 
